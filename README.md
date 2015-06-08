@@ -6,7 +6,7 @@ ProductTour is android sample project implementing a **parallax effect** welcome
 ## Google's Drive Screen Capture
 <img src="https://github.com/matrixxun/ProductTour/blob/master/art/driver.gif" width="300">
 
-## compat
+## Compat
 Support miniSDK 9+
 
 ## Example
