@@ -208,17 +208,14 @@ public class ProductTourActivity extends AppCompatActivity {
             View backgroundView = page.findViewById(R.id.welcome_fragment);
             View text_head= page.findViewById(R.id.heading);
             View text_content = page.findViewById(R.id.blurb);
-            View pepone = page.findViewById(R.id.a000);
-            View gouwu = page.findViewById(R.id.a001);
+            View object1 = page.findViewById(R.id.a000);
+            View object2 = page.findViewById(R.id.a001);
  
-            View phone = page.findViewById(R.id.a002);
-            View map = page.findViewById(R.id.a003);
-            View mountain = page.findViewById(R.id.a004);
-            View mountainNight = page.findViewById(R.id.a005);
-            View rain = page.findViewById(R.id.a006);
-            View hands1 = page.findViewById(R.id.a007);
-            View hands2 = page.findViewById(R.id.a008);
-            View hands3= page.findViewById(R.id.a010);
+            View object3 = page.findViewById(R.id.a002);
+            View object4 = page.findViewById(R.id.a003);
+            View object5 = page.findViewById(R.id.a004);
+            View object6 = page.findViewById(R.id.a005);
+            View object7 = page.findViewById(R.id.a006);
             
             if(0 < position && position < 1){
                 ViewHelper.setTranslationX(page,pageWidth * -position);
@@ -246,30 +243,30 @@ public class ProductTourActivity extends AppCompatActivity {
                     ViewHelper.setAlpha(text_content,1.0f - Math.abs(position));
                 }
                 
-                if (pepone != null) {
-                    ViewHelper.setTranslationX(pepone,pageWidth * position);
+                if (object1 != null) {
+                    ViewHelper.setTranslationX(object1,pageWidth * position);
                 }
 
                 // parallax effect
-                if(gouwu != null){
-                    ViewHelper.setTranslationX(gouwu,pageWidth * position);
+                if(object2 != null){
+                    ViewHelper.setTranslationX(object2,pageWidth * position);
                 }
                 
-                if(map != null){
-                    ViewHelper.setTranslationX(map,pageWidth/2 * position);
+                if(object4 != null){
+                    ViewHelper.setTranslationX(object4,pageWidth/2 * position);
                 }
-                if(mountain != null){
-                    ViewHelper.setTranslationX(mountain,pageWidth/2 * position);
+                if(object5 != null){
+                    ViewHelper.setTranslationX(object5,pageWidth/2 * position);
                 }
-                if(mountainNight != null){
-                    ViewHelper.setTranslationX(mountainNight,pageWidth/2 * position);
+                if(object6 != null){
+                    ViewHelper.setTranslationX(object6,pageWidth/2 * position);
                 }
-                if(rain != null){
-                    ViewHelper.setTranslationX(rain,pageWidth/2 * position);
+                if(object7 != null){
+                    ViewHelper.setTranslationX(object7,pageWidth/2 * position);
                 }
 
-                if(phone != null){
-                    ViewHelper.setTranslationX(phone,(float)(pageWidth/1.2 * position));
+                if(object3 != null){
+                    ViewHelper.setTranslationX(object3,(float)(pageWidth/1.2 * position));
                 }
             }
         }
