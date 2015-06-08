@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome_fragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:background="#0f9d58" >
+
+    <FrameLayout
+        android:id="@+id/images"
+        android:layout_width="@dimen/welcome_images_size"
+        android:layout_height="@dimen/welcome_images_size"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/welcome_images_margin_top"
+        android:clipChildren="false">
+        <ImageView 
+            android:id="@+id/a000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/image1_b_01"
+            android:layout_marginTop="48dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_gravity="center"/>
+        <ImageView 
+            android:id="@+id/a001"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image1_a_01"
+            android:layout_gravity="left|bottom"
+            android:layout_marginLeft="56dp" />
+        <ImageView 
+            android:id="@+id/a002"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="56dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image1_c_01"
+            android:layout_gravity="right|top"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/blurb"
+        android:layout_alignLeft="@id/images"
+        android:layout_marginBottom="@dimen/welcome_heading_margin_bottom"
+        android:layout_marginLeft="@dimen/welcome_text_margin"
+        android:layout_marginRight="@dimen/welcome_text_margin"
+        android:text="@string/welcom_head_01"
+        android:textAppearance="@style/WelcomeHeadingAppearance" />
+
+    <TextView
+        android:id="@+id/blurb"
+        android:text="@string/welcom_content_01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/images"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/welcome_text_margin_bottom"
+        android:layout_marginLeft="@dimen/welcome_text_margin"
+        android:layout_marginRight="@dimen/welcome_text_margin"
+        android:minHeight="@dimen/welcome_blurb_min_height"
+        android:textAppearance="@style/WelcomeContentAppearance" />
+
+</RelativeLayout>

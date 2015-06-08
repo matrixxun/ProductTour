@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome_fragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:background="#f4b400" >
+
+    <FrameLayout
+        android:id="@id/images"
+        android:layout_width="@dimen/welcome_images_size"
+        android:layout_height="@dimen/welcome_images_size"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/welcome_images_margin_top"
+        android:clipChildren="false">
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/image2_c_01"
+            android:layout_gravity="center"/>
+        <ImageView 
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image2_a_01"
+            android:layout_gravity="right|center_vertical"/>
+        <ImageView 
+            android:id="@+id/a003"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image2_b_01"
+            android:layout_marginLeft="56dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="left|bottom"/>
+        
+        <ImageView 
+            android:id="@+id/a004"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginRight="64dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image2_b_02"
+            android:layout_gravity="right|top"/>
+        <ImageView 
+            android:id="@+id/a005"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="114dp"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/image2_b_03"
+            android:layout_gravity="right|bottom"/>
+        <ImageView 
+            android:id="@+id/a006"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerInside"
+            android:layout_marginTop="112dp"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/image2_b_04"
+            android:layout_gravity="left|top"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@id/heading"
+        android:text="@string/welcom_head_02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/blurb"
+        android:layout_alignLeft="@id/images"
+        android:layout_marginBottom="@dimen/welcome_heading_margin_bottom"
+        android:layout_marginLeft="@dimen/welcome_text_margin"
+        android:layout_marginRight="@dimen/welcome_text_margin"
+        android:textAppearance="@style/WelcomeHeadingAppearance" />
+
+    <TextView
+        android:id="@id/blurb"
+        android:text="@string/welcom_content_02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/images"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/welcome_text_margin_bottom"
+        android:layout_marginLeft="@dimen/welcome_text_margin"
+        android:layout_marginRight="@dimen/welcome_text_margin"
+        android:minHeight="@dimen/welcome_blurb_min_height"
+        android:textAppearance="@style/WelcomeContentAppearance" />
+
+</RelativeLayout>
