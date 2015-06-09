@@ -47,7 +47,7 @@ public class ProductTourActivity extends AppCompatActivity {
                 endTutorial();
             }
         });
- 
+
         next = ImageButton.class.cast(findViewById(R.id.next));
         next.setOnClickListener(new View.OnClickListener() {
             @Override
