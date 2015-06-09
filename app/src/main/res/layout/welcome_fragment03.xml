@@ -4,7 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:clipChildren="false"
-    android:background="#b3dfdb" >
+    android:background="#00bcd4" >
 
     <FrameLayout
         android:id="@+id/images"
@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleType="centerInside"
-            android:src="@drawable/splash_03"
+            android:src="@drawable/welcome_03"
             android:layout_gravity="center"
             android:layout_marginTop="48dp"
             android:layout_marginLeft="32dp"
