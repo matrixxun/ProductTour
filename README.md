@@ -15,7 +15,7 @@ See example code here on Github. You can also see it live downloading [this apk]
 ## About Me
 * I'm an android developer working for [aliexpress.com](http://www.aliexpress.com)
 * You can try using our app via google play: [Aliexpress Shopping App](https://play.google.com/store/apps/details?id=com.alibaba.aliexpresshd)
-* [CONTACT ME: ](mailto:matrixxun@163.com) matrixxun@163.com
+* My Email: [matrixxun@163.com](mailto:matrixxun@163.com)
 
 License
 --------
