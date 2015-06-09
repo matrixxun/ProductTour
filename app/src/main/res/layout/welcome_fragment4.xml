@@ -28,7 +28,8 @@
             android:layout_marginBottom="24dp"
             android:src="@drawable/image4_b_01"
             android:layout_gravity="right|bottom"/>
-        <ImageView 
+        <ImageView
+            android:id="@+id/a012"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleType="centerInside"
