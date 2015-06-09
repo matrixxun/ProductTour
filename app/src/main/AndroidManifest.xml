@@ -28,6 +28,9 @@
 
         <activity android:name=".ProductTour2Activity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+
+        <activity android:name=".ProductTour3Activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
     </application>
 
 </manifest>

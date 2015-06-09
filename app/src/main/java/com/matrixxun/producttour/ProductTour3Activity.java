@@ -20,7 +20,7 @@ import android.widget.LinearLayout;
 import com.nineoldandroids.view.ViewHelper;
 
 
-public class ProductTour2Activity extends AppCompatActivity {
+public class ProductTour3Activity extends AppCompatActivity {
  
     static final int NUM_PAGES = 4;
  
@@ -203,6 +203,9 @@ public class ProductTour2Activity extends AppCompatActivity {
             View backgroundView = page.findViewById(R.id.welcome_fragment);
             View text_head= page.findViewById(R.id.heading);
             View text_content = page.findViewById(R.id.content);
+            View welcomeImage01 = page.findViewById(R.id.welcome_01);
+            View welcomeImage02 = page.findViewById(R.id.welcome_02);
+            View welcomeImage03 = page.findViewById(R.id.welcome_03);
 
             if(0 < position && position < 1){
                 ViewHelper.setTranslationX(page,pageWidth * -position);
@@ -227,6 +230,21 @@ public class ProductTour2Activity extends AppCompatActivity {
                 if (text_content != null) {
                     ViewHelper.setTranslationX(text_content,pageWidth * position);
                     ViewHelper.setAlpha(text_content,1.0f - Math.abs(position));
+                }
+
+                if (welcomeImage01 != null) {
+                    ViewHelper.setTranslationX(welcomeImage01,(float)(pageWidth/2 * position));
+                    ViewHelper.setAlpha(welcomeImage01,1.0f - Math.abs(position));
+                }
+
+                if (welcomeImage02 != null) {
+                    ViewHelper.setTranslationX(welcomeImage02,(float)(pageWidth/2 * position));
+                    ViewHelper.setAlpha(welcomeImage02,1.0f - Math.abs(position));
+                }
+
+                if (welcomeImage03 != null) {
+                    ViewHelper.setTranslationX(welcomeImage03,(float)(pageWidth/2 * position));
+                    ViewHelper.setAlpha(welcomeImage03,1.0f - Math.abs(position));
                 }
             }
         }

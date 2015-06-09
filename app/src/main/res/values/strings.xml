@@ -7,13 +7,13 @@
 
     <string name="button_product_tour">product tour</string>
 
-    <string name="welcom_head_01">随时随地选购喜欢的商品</string>
-    <string name="welcom_content_01">购物达人又爱又恨的剁手指南</string>
-    <string name="welcom_head_02">与您的好友分享购物乐趣</string>
-    <string name="welcom_content_02">折扣再多，值才重要，各路网友爆料分享</string>
-    <string name="welcom_head_03">春夏之日，雨水阳光错肩</string>
-    <string name="welcom_content_03">海量晒物经验和点评，引领品质生活</string>
-    <string name="welcom_head_04">不光低价，快才痛快</string>
-    <string name="welcom_content_04">打破格子，人生寻找真我</string>
+    <string name="welcom_head_01">Spreadsheets on the go</string>
+    <string name="welcom_content_01">Get stuff done with or without an internet connection.</string>
+    <string name="welcom_head_02">Share and edit together</string>
+    <string name="welcom_content_02">Write on your own or invite more people to contribute.</string>
+    <string name="welcom_head_03">Automatically save to the web</string>
+    <string name="welcom_content_03">Never lose your progress, so you can keep working from any computer or device.</string>
+    <string name="welcom_head_04">Edit Excel spreadsheets</string>
+    <string name="welcom_content_04">Open, edit, and save Excel files - all within Sheets.</string>
 
 </resources>

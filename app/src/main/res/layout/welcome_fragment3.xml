@@ -45,24 +45,24 @@
         android:text="@string/welcom_head_03"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/blurb"
+        android:layout_below="@+id/images"
         android:layout_alignLeft="@id/images"
-        android:layout_marginBottom="@dimen/welcome_heading_margin_bottom"
+        android:layout_marginTop="24dp"
         android:layout_marginLeft="@dimen/welcome_text_margin"
         android:layout_marginRight="@dimen/welcome_text_margin"
         android:textAppearance="@style/WelcomeHeadingAppearance" />
 
     <TextView
-        android:id="@+id/blurb"
+        android:id="@+id/content"
         android:text="@string/welcom_content_03"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@id/images"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="@dimen/welcome_text_margin_bottom"
+        android:layout_below="@+id/heading"
+        android:layout_marginTop="8dp"
         android:layout_marginLeft="@dimen/welcome_text_margin"
         android:layout_marginRight="@dimen/welcome_text_margin"
-        android:minHeight="@dimen/welcome_blurb_min_height"
+        android:minHeight="@dimen/welcome_content_min_height"
         android:textAppearance="@style/WelcomeContentAppearance" />
 
 </RelativeLayout>

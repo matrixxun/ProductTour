@@ -10,6 +10,6 @@
     <dimen name="welcome_text_margin">48.0dip</dimen>
     <dimen name="welcome_heading">24.0sp</dimen>
     <dimen name="welcome_text_margin_bottom">12.0dip</dimen>
-    <dimen name="welcome_blurb_min_height">96.0dip</dimen>
+    <dimen name="welcome_content_min_height">96.0dip</dimen>
     <dimen name="welcome_content">16.0sp</dimen>
 </resources>

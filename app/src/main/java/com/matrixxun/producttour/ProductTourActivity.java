@@ -71,7 +71,7 @@ public class ProductTourActivity extends AppCompatActivity {
         pager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-                //See note above for why this is needed
+
                 if (position == NUM_PAGES - 2 && positionOffset > 0) {
                     if (isOpaque) {
                         pager.setBackgroundColor(Color.TRANSPARENT);
@@ -207,7 +207,7 @@ public class ProductTourActivity extends AppCompatActivity {
  
             View backgroundView = page.findViewById(R.id.welcome_fragment);
             View text_head= page.findViewById(R.id.heading);
-            View text_content = page.findViewById(R.id.blurb);
+            View text_content = page.findViewById(R.id.content);
             View object1 = page.findViewById(R.id.a000);
             View object2 = page.findViewById(R.id.a001);
  
@@ -238,7 +238,6 @@ public class ProductTourActivity extends AppCompatActivity {
 
                 }
  
-                //Text both translates in/out and fades in/out
                 if (text_head != null) {
                     ViewHelper.setTranslationX(text_head,pageWidth * position);
                     ViewHelper.setAlpha(text_head,1.0f - Math.abs(position));
