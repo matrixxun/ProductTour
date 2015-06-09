@@ -221,6 +221,7 @@ public class ProductTourActivity extends AppCompatActivity {
             View object10 = page.findViewById(R.id.a011);
             View object11 = page.findViewById(R.id.a007);
             View object12 = page.findViewById(R.id.a012);
+            View object13 = page.findViewById(R.id.a013);
 
             if(0 < position && position < 1){
                 ViewHelper.setTranslationX(page,pageWidth * -position);
@@ -275,7 +276,7 @@ public class ProductTourActivity extends AppCompatActivity {
                 }
 
                 if(object9 != null){
-                    ViewHelper.setTranslationX(object9,(float)(pageWidth/1.5 * position));
+                    ViewHelper.setTranslationX(object9,(float)(pageWidth/2 * position));
                 }
 
                 if(object10 != null){
@@ -285,8 +286,13 @@ public class ProductTourActivity extends AppCompatActivity {
                 if(object11 != null){
                     ViewHelper.setTranslationX(object11,(float)(pageWidth/1.2 * position));
                 }
+
                 if(object12 != null){
                     ViewHelper.setTranslationX(object12,(float)(pageWidth/1.3 * position));
+                }
+
+                if(object13 != null){
+                    ViewHelper.setTranslationX(object13,(float)(pageWidth/1.8 * position));
                 }
 
                 if(object3 != null){
