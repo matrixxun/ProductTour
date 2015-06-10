@@ -10,7 +10,7 @@ ProductTour is android sample project implementing a **parallax effect** welcome
 API level 9+ supported
 
 ## Example
-See example code here on Github. You can also see it live downloading [this apk](https://github.com/matrixxun/ProductTour/blob/master/app/app-debug.apk)
+See example code here on Github. You can also see it live downloading [this apk](https://github.com/matrixxun/ProductTour/raw/master/app/app-debug.apk)
 
 ## About Me
 * I'm an android developer working for [aliexpress.com](http://www.aliexpress.com)
