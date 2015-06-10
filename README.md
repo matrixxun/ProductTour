@@ -1,3 +1,4 @@
+[![Android Gems](http://www.android-gems.com/badge/matrixxun/ProductTour.svg?branch=master)](http://www.android-gems.com/lib/matrixxun/ProductTour)
 # ProductTour
 ProductTour is android sample project implementing a **parallax effect** welcome page using **PageTransformer**, similar to the one found in  google's app like **Sheet, Drive...**
 ## ProductTour Screen Capture
