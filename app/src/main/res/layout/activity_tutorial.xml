@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="eu.fiskur.pennineway.tutorial.TutorialActivity"
     android:background="@android:color/transparent">
 
     <android.support.v4.view.ViewPager
@@ -28,13 +27,14 @@
 
         <Button
             android:id="@+id/skip"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:gravity="center"
             android:layout_alignParentLeft="true"
             android:text="SKIP"
             android:textSize="18sp"
             android:textColor="@color/abc_primary_text_material_dark"
-            android:background="@android:color/transparent"/>
+            android:background="@drawable/selectable_item_background_general"/>
 
         <LinearLayout
             android:id="@+id/circles"
@@ -47,24 +47,26 @@
 
         <Button
             android:id="@+id/done"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:gravity="center"
             android:layout_alignParentRight="true"
             android:text="DONE"
             android:textSize="18sp"
             android:textColor="@color/abc_search_url_text_normal"
-            android:background="@android:color/transparent"
+            android:background="@drawable/selectable_item_background_general"
             android:visibility="gone"/>
 
         <ImageButton
             android:id="@+id/next"
-            android:layout_width="90dp"
-            android:layout_height="45dp"
-            android:paddingTop="13dp"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:paddingTop="12dp"
             android:paddingBottom="12dp"
             android:src="@drawable/ic_action_next"
             android:layout_alignParentRight="true"
-            android:background="@android:color/transparent"
+            android:background="@drawable/selectable_item_background_general"
             android:scaleType="fitCenter"
             />
         </RelativeLayout>
