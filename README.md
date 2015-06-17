@@ -5,7 +5,7 @@ ProductTour is android sample project implementing a **parallax effect** welcome
 <img src="https://github.com/matrixxun/ProductTour/blob/master/art/run.gif" width="300"><img src="https://github.com/matrixxun/ProductTour/blob/master/art/run3.gif" width="300">
 ## Support Tablet and 2.3
 <img src="https://github.com/matrixxun/ProductTour/blob/master/art/api_10.png" width="300">
-<img src="https://github.com/matrixxun/ProductTour/blob/master/art/tablet.png" height="533">
+<img src="https://github.com/matrixxun/ProductTour/blob/master/art/tablet.png" height="480">
 
 ## Google's Drive Screen Capture
 <img src="https://github.com/matrixxun/ProductTour/blob/master/art/driver.gif" width="300">
