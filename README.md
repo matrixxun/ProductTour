@@ -3,7 +3,7 @@
 ProductTour is android sample project implementing a **parallax effect** welcome page using **PageTransformer**, similar to the one found in  google's app like **Sheet, Drive...**
 ## ProductTour Screen Capture
 <img src="https://github.com/matrixxun/ProductTour/blob/master/art/run.gif" width="300"><img src="https://github.com/matrixxun/ProductTour/blob/master/art/run3.gif" width="300">
-## Support Tablet and 2.3
+## Support Tablet and Android 2.3+
 <img src="https://github.com/matrixxun/ProductTour/blob/master/art/api_10.png" width="300">
 <img src="https://github.com/matrixxun/ProductTour/blob/master/art/tablet.png" height="400">
 
