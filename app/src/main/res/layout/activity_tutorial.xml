@@ -53,7 +53,7 @@
             android:layout_alignParentRight="true"
             android:text="DONE"
             android:textSize="18sp"
-            android:textColor="@color/abc_search_url_text_normal"
+            android:textColor="@color/abc_primary_text_material_dark"
             android:background="@drawable/selectable_item_background_general"
             android:visibility="gone"/>
 
