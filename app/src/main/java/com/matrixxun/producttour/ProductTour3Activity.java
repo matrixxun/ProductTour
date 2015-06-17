@@ -207,13 +207,13 @@ public class ProductTour3Activity extends AppCompatActivity {
             View welcomeImage02 = page.findViewById(R.id.welcome_02);
             View welcomeImage03 = page.findViewById(R.id.welcome_03);
 
-            if(0 < position && position < 1){
+            if(0 <= position && position < 1){
                 ViewHelper.setTranslationX(page,pageWidth * -position);
             }
             if(-1 < position && position < 0){
                 ViewHelper.setTranslationX(page,pageWidth * -position);
             }
- 
+
             if(position <= -1.0f || position >= 1.0f) {
             } else if( position == 0.0f ) {
             } else {
@@ -221,12 +221,12 @@ public class ProductTour3Activity extends AppCompatActivity {
                     ViewHelper.setAlpha(backgroundView,1.0f - Math.abs(position));
 
                 }
- 
+
                 if (text_head != null) {
                     ViewHelper.setTranslationX(text_head,pageWidth * position);
                     ViewHelper.setAlpha(text_head,1.0f - Math.abs(position));
                 }
-                
+
                 if (text_content != null) {
                     ViewHelper.setTranslationX(text_content,pageWidth * position);
                     ViewHelper.setAlpha(text_content,1.0f - Math.abs(position));

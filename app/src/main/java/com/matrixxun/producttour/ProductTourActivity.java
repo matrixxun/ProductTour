@@ -223,7 +223,7 @@ public class ProductTourActivity extends AppCompatActivity {
             View object12 = page.findViewById(R.id.a012);
             View object13 = page.findViewById(R.id.a013);
 
-            if(0 < position && position < 1){
+            if(0 <= position && position < 1){
                 ViewHelper.setTranslationX(page,pageWidth * -position);
             }
             if(-1 < position && position < 0){

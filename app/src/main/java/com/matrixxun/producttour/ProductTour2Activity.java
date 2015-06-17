@@ -204,7 +204,7 @@ public class ProductTour2Activity extends AppCompatActivity {
             View text_head= page.findViewById(R.id.heading);
             View text_content = page.findViewById(R.id.content);
 
-            if(0 < position && position < 1){
+            if(0 <= position && position < 1){
                 ViewHelper.setTranslationX(page,pageWidth * -position);
             }
             if(-1 < position && position < 0){

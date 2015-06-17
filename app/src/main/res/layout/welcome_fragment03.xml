@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/welcome_fragment"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:clipChildren="false"
-    android:background="#00bcd4" >
+    android:background="#00bcd4"
+    android:orientation="vertical"
+    android:layout_weight="6"
+    android:paddingTop="48dp">
 
     <FrameLayout
         android:id="@+id/images"
-        android:layout_width="@dimen/welcome_images_size"
-        android:layout_height="@dimen/welcome_images_size"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/welcome_images_margin_top"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
         android:clipChildren="false">
         <ImageView
             android:id="@+id/welcome_03"
@@ -20,10 +21,10 @@
             android:layout_height="wrap_content"
             android:scaleType="centerInside"
             android:src="@drawable/welcome_03"
-            android:layout_gravity="center"
-            android:layout_marginTop="48dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginRight="32dp"/>
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|bottom"/>
 
     </FrameLayout>
 
@@ -31,25 +32,28 @@
         android:id="@+id/heading"
         android:text="@string/welcom_head_03"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/images"
-        android:layout_alignLeft="@id/images"
-        android:layout_marginTop="24dp"
-        android:layout_marginLeft="@dimen/welcome_text_margin"
-        android:layout_marginRight="@dimen/welcome_text_margin"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:gravity="bottom|center_horizontal"
         android:textAppearance="@style/WelcomeHeadingAppearance" />
 
     <TextView
         android:id="@+id/content"
         android:text="@string/welcom_content_03"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/heading"
-        android:layout_alignLeft="@id/images"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="@dimen/welcome_text_margin"
-        android:layout_marginRight="@dimen/welcome_text_margin"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:gravity="top|center_horizontal"
         android:minHeight="@dimen/welcome_content_min_height"
         android:textAppearance="@style/WelcomeContentAppearance" />
 
-</RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>
