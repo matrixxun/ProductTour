@@ -16,9 +16,6 @@ API level 9+ supported
 ## Example
 See example code here on Github. You can also see it live downloading [this apk](https://github.com/matrixxun/ProductTour/raw/master/app/app-debug.apk)
 
-## About Me
-* My Email: [matrixxun@163.com](mailto:matrixxun@163.com)
-
 License
 --------
 
