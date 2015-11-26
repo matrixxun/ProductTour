@@ -1,4 +1,4 @@
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AppIntro-green.svg?style=flat)](https://android-arsenal.com/details/3/1997)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AppIntro-green.svg?style=flat)](https://android-arsenal.com/details/3/1997)  
 
 [![Android Gems](http://www.android-gems.com/badge/matrixxun/ProductTour.svg?branch=master)](http://www.android-gems.com/lib/matrixxun/ProductTour)
 # ProductTour
