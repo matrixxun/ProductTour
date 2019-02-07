@@ -1,0 +1,119 @@
+Skip to content
+Your account has been flagged.
+Because of that, your profile is hidden from the public. If you believe this is a mistake, contact support to have your account status reviewed.
+
+one drive google drive
+Repositories92
+Code3M+
+Commits47K
+Issues101K
+Marketplace0
+Topics0
+Wikis7K
+Users1
+Language
+
+Sort
+
+3,515,093 code results
+@antoineloos
+antoineloos/UniversalDrive – GoogleDriveService.csproj.FileListAbsolute.txt
+Showing the top six matches
+Last indexed on Jul 7, 2018
+Text
+C:\Users\Antoine\Desktop\OneDriveSimpleSample\GoogleDriveService\bin\Debug\GoogleDriveService.dll
+C:\Users\Antoine\Desktop\OneDriveSimpleSample\GoogleDriveService\bin\Debug\GoogleDriveService.pdb
+@carlilord
+carlilord/CloudStorageManager – ModelBindings.cs
+Showing the top four matches
+Last indexed on Jul 1, 2018
+C#
+    class ModelBindings
+    {
+
+        private string oneDriveStatus;
+        private string googleDriveStatus;
+                this.googleDriveSignInStatus = value;
+            }
+        }
+        public bool OneDriveSignInStatus
+@OpenAEC
+OpenAEC/OpenAEC – OpenAEC.csproj.FileListAbsolute.txt
+Showing the top four matches
+Last indexed on Jul 8, 2018
+Text
+C:\Users\konrad.sobon\OneDrive - HOK\GoogleDrive\Work\OpenAEC\OpenAEC\bin\Debug2016\OpenAEC.addin
+C:\Users\konrad.sobon\OneDrive - HOK\GoogleDrive\Work\OpenAEC\OpenAEC\bin\Debug2016\OpenAEC.dll
+@OpenAEC
+OpenAEC/OpenAEC – OpenAEC.csproj.FileListAbsolute.txt
+Showing the top four matches
+Last indexed on Jul 8, 2018
+Text
+C:\Users\konrad.sobon\OneDrive - HOK\GoogleDrive\Work\OpenAEC\OpenAEC\bin\Debug\OpenAEC.dll
+C:\Users\konrad.sobon\OneDrive - HOK\GoogleDrive\Work\OpenAEC\OpenAEC\bin\Debug\OpenAEC.pdb
+C:\Users\konrad.sobon\OneDrive - HOK\GoogleDrive\Work\OpenAEC\OpenAEC\bin\Debug\GalaSoft.MvvmLight.dll
+@OpenAEC
+OpenAEC/OpenAEC – OpenAEC.csproj.FileListAbsolute.txt
+Showing the top four matches
+Last indexed on Jul 8, 2018
+Text
+C:\Users\konrad.sobon\OneDrive - HOK\GoogleDrive\Work\OpenAEC\OpenAEC\bin\Debug2016\OpenAEC.addin
+C:\Users\konrad.sobon\OneDrive - HOK\GoogleDrive\Work\OpenAEC\OpenAEC\bin\Debug2016\OpenAEC.dll
+@OpenAEC
+OpenAEC/OpenAEC – OpenAEC.csproj.FileListAbsolute.txt
+Showing the top four matches
+Last indexed on Jul 8, 2018
+Text
+C:\Users\konrad.sobon\OneDrive - HOK\GoogleDrive\Work\OpenAEC\OpenAEC\bin\Debug2018\OpenAEC.addin
+C:\Users\konrad.sobon\OneDrive - HOK\GoogleDrive\Work\OpenAEC\OpenAEC\bin\Debug2018\OpenAEC.dll
+@tungxuan1656
+tungxuan1656/shortenURL – ShortenURL.csproj.FileListAbsolute.txt
+Showing the top four matches
+Last indexed on Jul 13, 2018
+Text
+F:\OneDrive - Hanoi University of Science and Technology\IT\CSharp\ShortenURL\ShortenURL\bin\Debug\Google.Apis.Auth.dll
+F:\OneDrive - Hanoi University of Science and Technology\IT\CSharp\ShortenURL\ShortenURL\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+F:\OneDrive - Hanoi University of Science and Technology\IT\CSharp\ShortenURL\ShortenURL\bin\Debug\Google.Apis.Core.dll
+F:\OneDrive - Hanoi University of Science and Technology\IT\CSharp\ShortenURL\ShortenURL\bin\Debug\Google.Apis.dll
+@carlilord
+carlilord/CloudStorageManager – CloudManagerViewModel.cs
+Showing the top five matches
+Last indexed on Jul 1, 2018
+C#
+        public OneDriveInterfaceFunctions OneDriveInterfaceFunctions { get; set; }
+
+        public GoogleDriveClass GoogleDrive { get; set; }
+                this.OnPropertyChanged("OneDriveStatus");
+            }
+        }
+        public string GoogleDriveStatus
+        {
+            get
+@miskohut
+miskohut/People – People.csproj.FileListAbsolute.txt
+Showing the top two matches
+Last indexed on Jul 2, 2018
+Text
+C:\Users\misko\OneDrive\Bakalárka\produkt\Projects\People\People\bin\x86\Debug\ApplicationInsights.config
+C:\Users\misko\OneDrive\Bakalárka\produkt\Projects\People\People\bin\x86\Debug\App.xbf
+@detectivetyc
+detectivetyc/Mockdata – activity.sql
+Showing the top two matches
+Last indexed on Jul 10, 2018
+SQLPL
+T: '0x4010005'  || 'pre_web_login_1'             || 'OneDrive_pro' || 'trans' || 'log'
+T: '0x8010005'  || 'pre_web_login_2'             || 'OneDrive_pro' || 'trans' || 'log'
+T: '0xc010005'  || 'app_pre_login'               || 'OneDrive_pro' || 'trans' || 'log'
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
